@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1 className="title">WEB<br/>DEV</h1>
+        <h1 className="title">
+          <span className='blue'>WEB</span>
+          <br/>
+          <span className='red'>DEV</span></h1>
         <FullStack className='full-stack'/>
       </div>
     </div>

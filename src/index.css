@@ -29,3 +29,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.blue {
+  color: #7F73FF;
+}
+
+.red {
+  color: #F964FC;
+}
