@@ -11,7 +11,8 @@
 
 body {
   padding: 30px;
-  background-color: white;
+  background: rgb(240,200,236);
+  background-color: linear-gradient(117deg, rgba(240,200,236,1) 75%, rgba(209,231,156,1) 100%);
   font-family: 'Asap', sans-serif;
   color: #1b1c1d;
 }

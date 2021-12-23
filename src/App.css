@@ -1,18 +1,40 @@
 .App {
   text-align: center;
   font-family: 'Asap', sans-serif;
+  display: flex;
+  flex-direction: row;
 }
 
 .title {
   font-weight: 600;
   font-style: italic;
-  font-size: 144px;
-  line-height: 129px;
+  font-size: 100px;
+  line-height: 85px;
 }
+
+/* .title-1-div {
+  display: flex;
+  flex-flow: row nowrap;
+} */
 
 .full-stack {
-  transform: scale(0.75);
+  height: 60vw;
+  width: 60vw
 }
 
+.content-div{
+  display: flex;
+  flex-direction: column;
+}
 
+.lance-div {
+  border: 7px solid white;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+.lance {
+  font-size: 50px;
+  padding: 7px 6px;
+}
 
