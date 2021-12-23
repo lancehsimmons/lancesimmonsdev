@@ -42,10 +42,10 @@ function App() {
                     </span>
                   </h3>
                 </div>
-                <div>
+                <div >
                   <h3>
                     <Link to='/portfolio'>
-                      <span className='red'>
+                      <span className='red portfolio'>
                         PORTFOLIO
                       </span>
                     </Link>

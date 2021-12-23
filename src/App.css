@@ -69,6 +69,10 @@
   margin: 15px;
 }
 
+.portfolio:hover {
+  color: #90D701
+}
+
 .statement {
   background-color: white;
   border-radius: 10px;
