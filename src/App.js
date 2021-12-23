@@ -1,5 +1,8 @@
 import './App.css';
 import { ReactComponent as FullStack } from './assets/Group 77.svg'
+// import './assets/mail.png'
+// import './assets/github.png'
+// import './assets/linked.png'
 
 function App() {
   return (
@@ -30,7 +33,7 @@ function App() {
           <div className='slash'>
             <span className='white'>/</span>
           </div>
-          <div className='links'>
+          <div className='screens'>
             <div className='resume'>
             <h3>
               <span className='blue'>RESUME</span>
@@ -45,7 +48,12 @@ function App() {
         </div>
         <div className='statement'>
             <p className='blue'>  As a <span className='red'>software engineer</span> with a background in a diverse <span className='red'>art</span> practice and a decade of technical support I seek to bring my <span className='red'>passion</span> for sharing in <span className='red'>creativity</span> to bear on every aspect of my life.</p>
-          </div>
+        </div>
+        <div className='links'>
+          <div><img src='./images/mail.png'/></div>
+          <div><img src='./images/github.png'/></div>
+          <div><img src='./images/linked.png'/></div>
+        </div>
       </div>
     </div>
   );

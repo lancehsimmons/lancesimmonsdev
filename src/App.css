@@ -28,7 +28,7 @@
 .lance-div {
   border: 4px solid white;
   border-radius: 10px;
-  font-size: 2.7vw;
+  font-size: 2.6vw;
 }
 
 .lance {
@@ -50,7 +50,7 @@
 }
 
 .full-stack-title {
-  font-size: 7vw;
+  font-size: 6vw;
   font-style: italic;
 }
 
@@ -59,7 +59,7 @@
   font-weight: 600;
 }
 
-.links {
+.screens {
   text-align: right;
   font-size: 3.5vw;
   align-items: flex-end;
@@ -76,6 +76,18 @@
   padding: 15px 15px;
   text-align: left;
   text-indent: 1vw;
-  font-size: 3vw;
+  font-size: 2.7vw;
+  overflow: scroll;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.links img {
+  width: 4vw;
 }
 
