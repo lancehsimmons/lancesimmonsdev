@@ -18,8 +18,9 @@
 }
 
 .full-stack {
-  height: 50vw;
-  width: 50vw
+  height: 57vw;
+  width: 45vw;
+  margin-left: -15px;
 }
 
 .content-div{
@@ -63,7 +64,7 @@
   text-align: right;
   font-size: 3.5vw;
   align-items: flex-end;
-  margin-left: -5px;
+  /* margin-left: -5px; */
 }
 
 .resume {
