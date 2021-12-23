@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,600&display=swap');
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
+
+html {
+  background: rgb(240,200,236);
+  background: linear-gradient(117deg, rgba(240,200,236,1) 75%, rgba(209,231,156,1) 100%);
+  height: 100%;
+  width: 100%
+}
 
 body {
-  padding: 30px;
-  background: rgb(240,200,236);
-  background-color: linear-gradient(117deg, rgba(240,200,236,1) 75%, rgba(209,231,156,1) 100%);
   font-family: 'Asap', sans-serif;
   color: #1b1c1d;
 }
@@ -37,4 +33,8 @@ code {
 
 .red {
   color: #F964FC;
+}
+
+.white {
+  color: white;
 }
