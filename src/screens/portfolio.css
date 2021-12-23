@@ -1,0 +1,31 @@
+.piece{
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 15px;
+  text-align: left;
+  text-indent: 1vw;
+  font-size: 2.7vw;  
+  margin: 20px 20px;
+}
+
+.piece-title-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.github {
+  width: 5vw;
+  height: 5vw
+}
+
+.piece-title{
+  margin: 0px 10px 10px 0px;
+}
+
+.thumb {
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  margin-bottom: 25px;
+}
