@@ -1,5 +1,8 @@
+import { Link, Switch, Route } from 'react-router-dom'
+import Portfolio from './screens/Portfolio'
 import './App.css';
 import { ReactComponent as FullStack } from './assets/Group 77.svg'
+
 // import './assets/mail.png'
 // import './assets/github.png'
 // import './assets/linked.png'
@@ -7,6 +10,11 @@ import { ReactComponent as FullStack } from './assets/Group 77.svg'
 function App() {
   return (
     <div className="App">
+
+      <Switch>
+        <Route path='/'></Route>
+        <Route path='/portfolio'><Portfolio/></Route>
+      </Switch>
 
       <div className='title-1-div column1'>
         <FullStack className='full-stack' />
@@ -36,12 +44,18 @@ function App() {
           <div className='screens'>
             <div className='resume'>
               <h3>
-                <span className='blue'>RESUME</span>
+                <span className='blue'>
+                  <a href='https://docs.google.com/document/d/1s_NQsBNisr4WyLuihdOOqQxq78PrDvwjx_WpIe3OR8o/edit?usp=sharing'>RESUME</a>
+                </span>
               </h3>
             </div>
             <div>
               <h3>
-                <span className='red'>PORTFOLIO</span>
+                <Link to='/portfolio'>
+                  <span className='red'>
+                    PORTFOLIO
+                  </span>
+                </Link>
               </h3>
             </div>
           </div>

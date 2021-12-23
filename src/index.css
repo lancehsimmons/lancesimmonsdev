@@ -28,6 +28,20 @@ hr {
   background-color: #3b3c3d;
 }
 
+a {
+  color: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link, a:visited {
+  color: #F964FC;
+}
+
+a:hover {
+  color: #90D701
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
