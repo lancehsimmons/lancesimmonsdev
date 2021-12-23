@@ -21,12 +21,14 @@ export default function Portfolio() {
 
       <div className='piece'>
         <div className='piece-title-div'>
-          <a href='https://roast-lancedev.surge.sh/</div>'>
+          <a target="_blank"
+            href='https://roast-lancedev.surge.sh/</div>'>
             <img className='thumb'
               src='./images/roast-thumbnail.png' />
           </a>
           <h2 className='red piece-title'>ROAST</h2>
-          <a href='https://github.com/lancehsimmons/Roast'>
+          <a target="_blank"
+            href='https://github.com/lancehsimmons/Roast'>
             <img className='github'
               src='./images/github.png' />
           </a>
@@ -37,12 +39,14 @@ export default function Portfolio() {
 
       <div className='piece'>
         <div className='piece-title-div'>
-          <a href='https://everfree-outdoors.netlify.app/'>
+          <a target="_blank"
+            href='https://everfree-outdoors.netlify.app/'>
             <img className='thumb'
               src='./images/everfree-thumbnail.png' />
           </a>
           <h2 className='red piece-title'>EVERFREE OUTDOORS</h2>
-          <a href='https://github.com/lancehsimmons/HEED'>
+          <a target="_blank"
+            href='https://github.com/lancehsimmons/HEED'>
             <img className='github'
               src='./images/github.png' />
           </a>
@@ -53,12 +57,14 @@ export default function Portfolio() {
 
       <div className='piece'>
         <div className='piece-title-div'>
-          <a href='https://lancehsimmons.github.io/HEED'>
+          <a target="_blank"
+            href='https://lancehsimmons.github.io/HEED'>
             <img className='thumb'
               src='./images/heed-thumbnail.png' />
           </a>
           <h2 className='red piece-title'>HEED</h2>
-          <a href='https://github.com/anelisekathryn/EverFree-Outdoors'>
+          <a target="_blank"
+            href='https://github.com/anelisekathryn/EverFree-Outdoors'>
             <img className='github'
               src='./images/github.png' />
           </a>
@@ -69,17 +75,20 @@ export default function Portfolio() {
 
       <div className='links'>
               <div>
-                <a href='mailto:lancehowardsimmons@gmail.com'>
+          <a target="_blank"
+            href='mailto:lancehowardsimmons@gmail.com'>
                   <img src='./images/mail.png' />
                 </a>
               </div>
               <div>
-                <a href='https://github.com/lancehsimmons'>
+          <a target="_blank"
+            href='https://github.com/lancehsimmons'>
                   <img src='./images/github.png' />
                 </a>
               </div>
               <div>
-                <a href='https://www.linkedin.com/in/lance-simmons/'>
+          <a target="_blank"
+            href='https://www.linkedin.com/in/lance-simmons/'>
                   <img src='./images/linked.png' />
                 </a>
               </div>

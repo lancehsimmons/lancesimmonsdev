@@ -38,7 +38,8 @@ function App() {
                 <div className='resume'>
                   <h3>
                     <span className='blue'>
-                      <a href='https://docs.google.com/document/d/1s_NQsBNisr4WyLuihdOOqQxq78PrDvwjx_WpIe3OR8o/edit?usp=sharing'>RESUME</a>
+                      <a target="_blank"
+                        href='https://docs.google.com/document/d/1s_NQsBNisr4WyLuihdOOqQxq78PrDvwjx_WpIe3OR8o/edit?usp=sharing'>RESUME</a>
                     </span>
                   </h3>
                 </div>
@@ -58,17 +59,20 @@ function App() {
             </div>
             <div className='links'>
               <div>
-                <a href='mailto:lancehowardsimmons@gmail.com'>
+                <a target="_blank"
+                  href='mailto:lancehowardsimmons@gmail.com'>
                   <img src='./images/mail.png' />
                 </a>
               </div>
               <div>
-                <a href='https://github.com/lancehsimmons'>
+                <a target="_blank"
+                  href='https://github.com/lancehsimmons'>
                   <img src='./images/github.png' />
                 </a>
               </div>
               <div>
-                <a href='https://www.linkedin.com/in/lance-simmons/'>
+                <a target="_blank"
+                  href='https://www.linkedin.com/in/lance-simmons/'>
                   <img src='./images/linked.png' />
                 </a>
               </div>
