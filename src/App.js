@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className='title-1-div column'>
+      <div className='title-1-div column1'>
         <FullStack className='full-stack' />
       </div>
       <div className='content-div column'>
