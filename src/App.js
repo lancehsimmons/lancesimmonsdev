@@ -60,19 +60,19 @@ function App() {
               <div>
                 <a target="_blank"
                   href='mailto:lancehowardsimmons@gmail.com'>
-                  <img src='./lancedev/images/mail.png' />
+                  <img src='./images/mail.png' />
                 </a>
               </div>
               <div>
                 <a target="_blank"
                   href='https://github.com/lancehsimmons'>
-                  <img src='./lancedev/images/github.png' />
+                  <img src='./images/github.png' />
                 </a>
               </div>
               <div>
                 <a target="_blank"
                   href='https://www.linkedin.com/in/lance-simmons/'>
-                  <img src='./lancedev/images/linked.png' />
+                  <img src='./images/linked.png' />
                 </a>
               </div>
             </div>
