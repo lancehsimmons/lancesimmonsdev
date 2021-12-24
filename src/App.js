@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path='/portfolio'><Portfolio /></Route>
         <Route path='/lancedev'exact>
           <div className='title-1-div column1'>
             <FullStack className='full-stack' />
@@ -79,6 +78,8 @@ function App() {
             </div>
           </div>
         </Route>
+
+        <Route path='/portfolio'><Portfolio /></Route>
       </Switch>
     </div>
   );
