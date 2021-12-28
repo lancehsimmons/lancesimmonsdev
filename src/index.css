@@ -6,6 +6,7 @@ html {
   background: linear-gradient(117deg, rgba(240,200,236,1) 75%, rgba(209,231,156,1) 100%); */
   /* background: conic-gradient (from 125deg at 34% 39%, white 100%, #FCD6FF 100%); */
   background: 
+  conic-gradient(from 0deg at 35% 57%, #FFFFFF17 90%, #f5d2f7 100%),
   linear-gradient(100deg, #fcd6ff0f 70%, #97e10351 100%),
   conic-gradient(from 118deg at 35% 57%, #ffffffcb 10%, #fcd6ff 40%, #fcd6ff4f 40%, #fcd6ff51 100%),
   linear-gradient(100deg, #fcd6ff 70%, #96E1036E 100%),
@@ -46,7 +47,8 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #90D701
+  color: #90D701;
+  transition: color 0.2s ease;
 }
 
 code {

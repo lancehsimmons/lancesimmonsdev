@@ -71,7 +71,8 @@
 }
 
 .portfolio:hover {
-  color: #90D701
+  color: #90D701;
+  transition: color 0.2s ease;
 }
 
 .statement {
