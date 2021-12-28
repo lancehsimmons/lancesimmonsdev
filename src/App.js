@@ -38,6 +38,7 @@ function App() {
                   <h3>
                     <span className='blue'>
                       <a target="_blank"
+                        rel="noopener noreferrer"
                         href='https://docs.google.com/document/d/1s_NQsBNisr4WyLuihdOOqQxq78PrDvwjx_WpIe3OR8o/edit?usp=sharing'>RESUME</a>
                     </span>
                   </h3>
@@ -59,20 +60,23 @@ function App() {
             <div className='links'>
               <div>
                 <a target="_blank"
+                  rel="noopener noreferrer"
                   href='mailto:lancehowardsimmons@gmail.com'>
-                  <img src='./images/mail.png' />
+                  <img src='./images/mail.png' alt='email symbol'/>
                 </a>
               </div>
               <div>
                 <a target="_blank"
+                  rel="noopener noreferrer"
                   href='https://github.com/lancehsimmons'>
-                  <img src='./images/github.png' />
+                  <img src='./images/github.png' alt='github logo'/>
                 </a>
               </div>
               <div>
                 <a target="_blank"
+                  rel="noopener noreferrer"
                   href='https://www.linkedin.com/in/lance-simmons/'>
-                  <img src='./images/linked.png' />
+                  <img src='./images/linked.png' alt='linked in logo'/>
                 </a>
               </div>
             </div>
