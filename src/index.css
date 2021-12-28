@@ -6,11 +6,17 @@ html {
   background: linear-gradient(117deg, rgba(240,200,236,1) 75%, rgba(209,231,156,1) 100%); */
   /* background: conic-gradient (from 125deg at 34% 39%, white 100%, #FCD6FF 100%); */
   background: 
+  radial-gradient(ellipse closest-corner at 70% 23% ,
+  #ed9df39d, #fcd6ff00),
+  radial-gradient(ellipse closest-corner at 80% 43% ,
+  #ed9df384, #fcd6ff00),
   conic-gradient(from 0deg at 35% 57%, #FFFFFF17 90%, #f5d2f7 100%),
   linear-gradient(100deg, #fcd6ff0f 70%, #97e10351 100%),
   conic-gradient(from 118deg at 35% 57%, #ffffffcb 10%, #fcd6ff 40%, #fcd6ff4f 40%, #fcd6ff51 100%),
   linear-gradient(100deg, #fcd6ff 70%, #96E1036E 100%),
-  /* linear-gradient(90deg, #fcd6ff 70%, #97e10331 100%), */
+  linear-gradient(90deg, #fcd6ff 70%, #97e10331 100%),
+  linear-gradient(90deg, #fcd6ff 70%, #97e10331 100%),
+
   conic-gradient(from 123deg at 40% 57%, #ffffff6f 10%, #fcd6ff4f 40%, #fcd6ff51 100%); 
   min-height: 100%;
   width: 100%;
