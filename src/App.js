@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path='/lancedev'exact>
+        <Route path='/'exact>
           <div className='title-1-div column1'>
             <FullStack className='full-stack' />
           </div>
