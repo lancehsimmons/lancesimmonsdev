@@ -2,19 +2,26 @@
 
 
 html {
-  background: rgb(240,200,236);
-  background: linear-gradient(117deg, rgba(240,200,236,1) 75%, rgba(209,231,156,1) 100%);
-  height: 100%;
+  /* background: rgb(240,200,236);
+  background: linear-gradient(117deg, rgba(240,200,236,1) 75%, rgba(209,231,156,1) 100%); */
+  /* background: conic-gradient (from 125deg at 34% 39%, white 100%, #FCD6FF 100%); */
+  background: 
+  linear-gradient(100deg, #fcd6ff0f 70%, #97e10351 100%),
+  conic-gradient(from 118deg at 35% 57%, #ffffffcb 10%, #fcd6ff 40%, #fcd6ff4f 40%, #fcd6ff51 100%),
+  linear-gradient(100deg, #fcd6ff 70%, #96E1036E 100%),
+  /* linear-gradient(90deg, #fcd6ff 70%, #97e10331 100%), */
+  conic-gradient(from 123deg at 40% 57%, #ffffff6f 10%, #fcd6ff4f 40%, #fcd6ff51 100%); 
+  min-height: 100%;
   width: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 body {
   font-family: 'Asap', sans-serif;
   color: #1b1c1d;
-  height: 100%;
-  margin-top: 20px;
-  background-repeat: no-repeat;
+  min-height: 100%;
   background-attachment: fixed;
   background-size: cover;
 }
