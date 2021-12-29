@@ -7,17 +7,19 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path='/'exact>
+        <Route path='/' exact>
           <div className='title-1-div column1'>
             <FullStack className='full-stack' />
-          </div>
+            </div>
           <div className='content-div column'>
+            <div className='lance-deco-div'>
             <div className='lance-div'>
               <h1 className="lance">
                 <span className='blue'>LANCE</span>
                 <span className='red'> SIMMONS</span>
               </h1>
-            </div>
+              </div>
+              </div>
             <div className='sub-title'>
               <div className='fs-container'>
                 <div>
@@ -56,7 +58,7 @@ function App() {
             </div>
             <div className='statement'>
               <p className='blue'>  As a <span className='red'>software engineer</span> with a background in a diverse <span className='red'>art</span> practice and a decade of technical support I seek to bring my <span className='red'>passion</span> for sharing in <span className='red'>creativity</span> to bear on every aspect of my life.</p>
-            </div>
+              </div>
             <div className='links'>
               <div>
                 <a target="_blank"
