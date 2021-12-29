@@ -2,9 +2,6 @@
 
 
 html {
-  /* background: rgb(240,200,236);
-  background: linear-gradient(117deg, rgba(240,200,236,1) 75%, rgba(209,231,156,1) 100%); */
-  /* background: conic-gradient (from 125deg at 34% 39%, white 100%, #FCD6FF 100%); */
   background: 
   radial-gradient(ellipse closest-corner at 70% 23% ,
   #ed9df39d, #fcd6ff00),
@@ -22,7 +19,6 @@ html {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 body {
