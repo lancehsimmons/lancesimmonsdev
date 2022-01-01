@@ -1,7 +1,9 @@
 import { Link, Switch, Route } from 'react-router-dom'
 import Portfolio from './screens/Portfolio'
+import AboutMe from './screens/AboutMe'
 import './App.css';
 import { ReactComponent as FullStack } from './assets/Group 77.svg'
+import Resume from './assets/Lance_Simmons_Software_Engineer.pdf'
 
 function App() {
   return (
@@ -41,8 +43,17 @@ function App() {
                     <span className='blue'>
                       <a target="_blank"
                         rel="noopener noreferrer"
-                        href='https://docs.google.com/document/d/1s_NQsBNisr4WyLuihdOOqQxq78PrDvwjx_WpIe3OR8o/edit?usp=sharing'>RESUME</a>
+                        href={Resume}>RESUME</a>
                     </span>
+                  </h3>
+                </div>
+                <div >
+                  <h3>
+                    <Link to='/about-me'>
+                      <span className='red portfolio'>
+                        ABOUT ME
+                      </span>
+                    </Link>
                   </h3>
                 </div>
                 <div >
@@ -86,6 +97,8 @@ function App() {
         </Route>
 
         <Route path='/portfolio'><Portfolio /></Route>
+
+        <Route path='/about-me'><AboutMe /></Route>
       </Switch>
     </div>
   );
