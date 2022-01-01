@@ -135,13 +135,22 @@
     font-size: 4.5vw;
   }
 
+  .lance-deco-div {
+    padding: 1.3vw 1.3vw;
+  }
+
   .lance-div{
     font-size: 4.5vw;
-    border: 1.2vw solid white;
+    border: 0.9vw solid white;
   }
 
   .full-stack-title {
     font-size: 8.5vw;
+  }
+
+  .slash {
+    font-size: 22vw;
+    font-weight: 400;
   }
 
   .screens{
