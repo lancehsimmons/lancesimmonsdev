@@ -15,7 +15,7 @@ export default function Nav() {
           <div>
             <h3 className='full-stack-title'>
               <span className='white'> {` {{{`}</span>
-              <span className='red'>HOME</span>
+              <span className='gohome red'>HOME</span>
             </h3>
           </div>
         </Link>

@@ -18,3 +18,8 @@
   justify-content: flex-end;
   font-size: 3vw;
 }
+
+.gohome:hover {
+  color: #90D701;
+  transition: color 0.2s ease;
+}

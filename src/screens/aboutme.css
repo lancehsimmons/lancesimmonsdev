@@ -39,3 +39,9 @@ i {
 .tools h2{
   margin-top: 20px;
 }
+
+@media (max-width: 450px) {
+  .aboutme {
+    margin: 10px 20px;
+  }
+}
