@@ -1,0 +1,13 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+  align-items: baseline;
+}
+
+@media (max-width: 450px) {
+.links img {
+  width: 7vw;
+}
+}

@@ -1,6 +1,7 @@
 import { Link, Switch, Route } from 'react-router-dom'
 import Portfolio from './screens/Portfolio'
 import AboutMe from './screens/AboutMe'
+import Links from './components/Links'
 import './App.css';
 import { ReactComponent as FullStack } from './assets/Group 77.svg'
 import Resume from './assets/Lance_Simmons_Software_Engineer.pdf'
@@ -69,30 +70,9 @@ function App() {
             </div>
             <div className='statement'>
               <p className='blue'>  As a <span className='red'>software engineer</span> with a background in a diverse <span className='red'>art</span> practice and a decade of technical support I seek to bring my <span className='red'>passion</span> for sharing in <span className='red'>creativity</span> to bear on every aspect of my life.</p>
-              </div>
-            <div className='links'>
-              <div>
-                <a target="_blank"
-                  rel="noopener noreferrer"
-                  href='mailto:lancehowardsimmons@gmail.com'>
-                  <img src='./images/mail.png' alt='email symbol'/>
-                </a>
-              </div>
-              <div>
-                <a target="_blank"
-                  rel="noopener noreferrer"
-                  href='https://github.com/lancehsimmons'>
-                  <img src='./images/github.png' alt='github logo'/>
-                </a>
-              </div>
-              <div>
-                <a target="_blank"
-                  rel="noopener noreferrer"
-                  href='https://www.linkedin.com/in/lance-simmons/'>
-                  <img src='./images/linked.png' alt='linked in logo'/>
-                </a>
-              </div>
             </div>
+            <Links />
+            
           </div>
         </Route>
 
