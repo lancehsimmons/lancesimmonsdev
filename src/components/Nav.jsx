@@ -5,7 +5,7 @@ import '../components/nav.css'
 
 export default function Nav() {
   return (
-    <div className='sub-title'>
+    <div className='sub-title-nav'>
       <div >
         <Link className='home-div' to='/'>
           <div>
