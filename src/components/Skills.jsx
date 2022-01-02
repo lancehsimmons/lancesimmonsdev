@@ -44,6 +44,9 @@ export default function Skills() {
         <div className='skill-div'>
           <i className="devicon-slack-plain"></i>
         </div>
+        <div className='skill-div'>
+          <i className="devicon-inkscape-plain"></i>
+        </div>
       </div>
     </div>
   )
