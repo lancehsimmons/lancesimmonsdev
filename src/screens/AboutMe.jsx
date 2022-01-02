@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import './aboutme.css'
 
 export default function AboutMe() {
   return (
@@ -19,6 +20,15 @@ export default function AboutMe() {
         </Link>
       </div>
       <h1>Hi, I'm Lance.</h1>
+      <div>
+      <i className="devicon-html5-plain-wordmark"></i>
+      </div>
+      <div>
+      <i className="devicon-css3-plain-wordmark"></i>
+      </div>
+      <div>
+      <i className="devicon-javascript-plain"></i>
+    </div>
     </div>
   )
 }
