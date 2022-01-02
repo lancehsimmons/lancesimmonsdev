@@ -1,5 +1,6 @@
 import './portfolio.css'
 import { Link } from 'react-router-dom'
+import Links from '../components/Links'
 
 export default function Portfolio() {
   return (
@@ -79,29 +80,7 @@ export default function Portfolio() {
         </p>
       </div>
 
-      <div className='links'>
-              <div>
-          <a target="_blank"
-            rel="noopener noreferrer"
-            href='mailto:lancehowardsimmons@gmail.com'>
-                  <img src='./images/mail.png' alt='email symbol'/>
-                </a>
-              </div>
-              <div>
-          <a target="_blank"
-            rel="noopener noreferrer"
-            href='https://github.com/lancehsimmons'>
-                  <img src='./images/github.png' alt='github logo'/>
-                </a>
-              </div>
-              <div>
-          <a target="_blank"
-            rel="noopener noreferrer"
-            href='https://www.linkedin.com/in/lance-simmons/'>
-                  <img src='./images/linked.png' alt='linked in logo'/>
-                </a>
-              </div>
-            </div>
+      <Links />
       
     </div>
   )
