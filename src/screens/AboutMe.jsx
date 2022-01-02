@@ -14,7 +14,7 @@ export default function AboutMe() {
         <div className='about-opener'>
           <div>
             <img className='me'
-              src='./images/me.png' alt='picture of Lance Simmons'></img>
+              src='./images/me.png' alt='Lance Simmons'></img>
           </div>
           <p>Hi, I'm <span className='red'>Lance,</span> an emerging <span className='red'>developer</span> living in Philadelphia, Pennsylvania.</p>
         </div>
