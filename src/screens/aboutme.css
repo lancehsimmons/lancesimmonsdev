@@ -21,7 +21,7 @@ i {
   font-size: 5vw;
 }
 
-p {
+.aboutme p {
   color: #7F73FF;
   margin-bottom: 7px;
 }
@@ -36,6 +36,6 @@ p {
   transition: color 0.2s ease;
 }
 
-h2{
+.tools h2{
   margin-top: 20px;
 }

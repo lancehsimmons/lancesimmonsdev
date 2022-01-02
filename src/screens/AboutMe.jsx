@@ -12,7 +12,7 @@ export default function AboutMe() {
 
       
 
-      <div className='statement'>
+      <div className='statement aboutme'>
         <div className='about-opener'>
       <div>
         <img className='me'
@@ -34,8 +34,8 @@ export default function AboutMe() {
                   <h4 className='contact red'>lancehsimmons@gmail.com</h4>
                 </a>
       </div>
-      <div>
-        <h2 className='red'>Tools in my belt:</h2>
+      <div className='tools red'>
+        <h2>Tools in my belt:</h2>
       </div>
       <Skills />
       <Links />
