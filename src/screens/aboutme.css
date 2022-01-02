@@ -1,4 +1,41 @@
+.me{
+  height: 35vw;
+  border-radius: 50%;
+  margin: 0px 20px;
+  align-self: center;
+}
+
 i {
   color: #7F73FF;
   font-size: 12vw;
+}
+
+.about-opener{
+  display: flex;
+  flex: row;
+  align-items: center;
+    margin-bottom: 10px;
+}
+
+.about-opener p {
+  font-size: 5vw;
+}
+
+p {
+  color: #7F73FF;
+  margin-bottom: 7px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact:hover {
+  color: #90D701;
+  transition: color 0.2s ease;
+}
+
+h2{
+  margin-top: 20px;
 }

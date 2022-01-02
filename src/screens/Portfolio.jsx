@@ -1,24 +1,11 @@
 import './portfolio.css'
-import { Link } from 'react-router-dom'
 import Links from '../components/Links'
+import Nav from '../components/Nav'
 
 export default function Portfolio() {
   return (
     <div>
-      <div >
-        <Link className='home-div' to='/'>
-          <div>
-            <img className='home-logo'
-              src='./images/home-logo.png' alt='spheres through screen symbol'/>
-          </div>
-          <div>
-            <h3 className='full-stack-title'>
-              <span className='white'> {` {{{`}</span>
-              <span className='red'>HOME</span>
-            </h3>
-          </div>
-        </Link>
-      </div>
+      <Nav/>
 
       <div className='piece'>
         <div className='piece-title-div'>
