@@ -4,7 +4,7 @@ import AboutMe from './screens/AboutMe'
 import Links from './components/Links'
 import './App.css';
 import { ReactComponent as FullStack } from './assets/Group 77.svg'
-import Resume from './assets/Lance_Simmons_Software_Engineer.pdf'
+import Resume from './assets/Lance_Simmons_Full_Stack_Resume.pdf'
 
 function App() {
   return (
