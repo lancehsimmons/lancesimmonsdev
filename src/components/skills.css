@@ -9,3 +9,9 @@
 .skill-div {
   margin: 10px 10px;
 }
+
+@media (max-width: 450px) {
+  .aboutme {
+    margin: 10px 20px;
+  }
+}
