@@ -21,6 +21,10 @@
   margin: 20px 20px;
 }
 
+.piece p {
+  font-size: 15px;
+}
+
 .piece-title-div{
   display: flex;
   flex-direction: row;
