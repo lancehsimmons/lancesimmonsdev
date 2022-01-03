@@ -23,7 +23,7 @@ export default function AboutMe() {
         <a target="_blank"
           rel="noopener noreferrer"
           href='mailto:lancehowardsimmons@gmail.com'>
-          <h4 className='contact red'>lancehsimmons@gmail.com</h4>
+          <h4 className='contact red'>lancehowardsimmons@gmail.com</h4>
         </a>
       </div>
       <div className='tools red'>
