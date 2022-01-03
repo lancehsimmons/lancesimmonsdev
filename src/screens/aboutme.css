@@ -17,13 +17,17 @@ i {
     margin-bottom: 10px;
 }
 
-.about-opener p {
+.about-opener-p {
   font-size: 5vw;
 }
 
 .aboutme p {
   color: #7F73FF;
   margin-bottom: 7px;
+}
+
+.about-body{
+  font-size: 3.5vw;
 }
 
 .aboutme {
