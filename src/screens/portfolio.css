@@ -25,6 +25,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .github {
@@ -33,7 +34,7 @@
   margin: 5vw}
 
 .piece-title{
-  margin: 0px 10px 0px 30px;
+  margin: 0px 10px 0px 0px;
 }
 
 .thumb {
@@ -41,6 +42,7 @@
   width: 30vw;
   height: 30vw;
   margin-bottom: 25px;
+  margin: 0px 10px 25px 0px;
 }
 
 .links {

@@ -59,8 +59,9 @@ export default function Portfolio() {
             <img className='thumb'
               src='./images/heed-thumbnail.png' alt='heed app screen shot'/>
           </a>
+       
           <div>
-
+            
           <h2 className='red piece-title'>HEED</h2>
           <a target="_blank"
             rel="noopener noreferrer"
@@ -68,7 +69,7 @@ export default function Portfolio() {
             <img className='github'
               src='./images/github.png' alt='github logo'/>
           </a>
-          </div>
+        </div>
         </div>
         <p className='blue'>  An early warning Asteroid Cataclysm Tracker. HEED consumes active data from the Near Earth Object Web Service NASA api and presents select information in a playful and engaging interface. Built on raw HTML, CSS, and Javascript, HEED was conceived of as an exercise in basic front-end api functionallity.
         </p>
