@@ -56,4 +56,14 @@ i {
   i {
     font-size: 14vw
   }
+
+  .about-opener-p{
+    font-size: 6vw;
+
+  }
+
+  .about-body {
+    font-size: 5vw;
+  }
+
 }
