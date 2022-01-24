@@ -4,7 +4,7 @@ import AboutMe from './screens/AboutMe'
 import Links from './components/Links'
 import './App.css';
 import { ReactComponent as FullStack } from './assets/Group 77.svg'
-import Resume from './assets/Lance_Simmons_Full_Stack_Resume.pdf'
+import Resume from './assets/Lance_Simmons_Software_Engineer_Resume.pdf'
 
 function App() {
   return (
@@ -69,8 +69,7 @@ function App() {
               </div>
             </div>
             <div className='statement'>
-              {/* <p className='blue'>  As a <span className='red'>software engineer</span> with a background in a diverse <span className='red'>art</span> practice and a decade of technical support I seek to bring my <span className='red'>passion</span> for sharing in <span className='red'>creativity</span> to bear on every aspect of my life.</p> */}
-              <p className='blue'>I’m an emerging <span className='red'>developer</span> working with a <span className='red'>diverse</span> tech stack as well as a broad <span className='red'>creative</span> skill-set to build full-stack apps and websites. Whether it's self-expression, digital tools, products, or apps, I love bringing <span className='red'>visions</span> to <span className='red'>life.</span></p>
+              <p className='blue'>I’m an emerging <span className='red'>developer</span> working with a <span className='red'>diverse</span> tech stack as well as a broad <span className='red'>creative</span> skill-set to build <span className='red'>full-stack</span> apps and websites. Whether it's self-expression, digital tools, products, or apps, I love bringing <span className='red'>visions</span> to <span className='red'>life.</span></p>
             </div>
             <Links />
             

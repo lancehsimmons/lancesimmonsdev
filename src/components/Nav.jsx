@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Resume from '../assets/Lance_Simmons_Full_Stack_Resume.pdf'
+import Resume from '../assets/Lance_Simmons_Software_Engineer_Resume.pdf'
 import '../components/nav.css'
 
 export default function Nav() {
