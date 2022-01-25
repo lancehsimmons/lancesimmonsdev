@@ -11,7 +11,7 @@ export default function Portfolio() {
         <div className='piece-title-div'>
           <a target="_blank"
             rel="noopener noreferrer"
-            href='https://roast-lancedev.surge.sh/</div>'>
+            href='https://roast-lancedev.surge.sh/'>
             <img className='thumb'
               src='./images/roast-thumbnail.png' alt='roast app logo'/>
           </a>
